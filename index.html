@@ -8,11 +8,11 @@
 <meta property="og:title" content="PreventAir AI · AI for a safer construction site">
 <meta property="og:description" content="Dust violations are preventable. PreventAir AI tells you 18 hours ahead.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://ppa2903.github.io/PreventAir1/">
-<meta property="og:image" content="https://ppa2903.github.io/PreventAir1/assets/og-image.jpg">
+<meta property="og:url" content="https://minhphuonghoang132-dotcom.github.io/PreventAirAI/">
+<meta property="og:image" content="https://minhphuonghoang132-dotcom.github.io/PreventAirAI/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0C3B2C">
-<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="icon" type="image/png" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -199,12 +199,12 @@ const SITES=[
 ];
 const SOURCE={name:'Báo Lao Động',url:'https://laodong.vn/ban-doc/chu-dau-tu-nha-thau-pha-do-cong-trinh-gay-bao-bui-o-ha-noi-bi-phat-200-trieu-dong-1686867.ldo'};
 const TEAM=[
-['Nguyễn Ngọc Trâm Anh','Product & Technology Lead','Leads product development and system design, translating construction-site challenges into practical technology requirements.','assets/team/1-tram-anh.jpg'],
-['Phạm Phương Anh','Business & Finance Lead','Focuses on business strategy, financial planning and building a sustainable B2B SaaS model.','assets/team/2-phuong-anh.jpg'],
-['Lê Minh Châu','Marketing & Communications Lead','Leads branding, communications and stakeholder engagement for PreventAir AI.','assets/team/3-minh-chau.jpg'],
-['Vũ Hương Giang','Research & Data Analysis Lead','Turns environmental and construction-related data into insights for evidence-based decision-making.','assets/team/4-huong-giang.jpg'],
-['Hoàng Minh Phương','Operations & Project Management Lead','Coordinates project activities, timelines and execution to keep the team aligned and the solution feasible.','assets/team/5-minh-phuong.jpg'],
-['Phạm Hải Thành','HR & People Development Lead','Supports team coordination, internal communication and people development to build a collaborative team culture.','assets/team/6-hai-thanh.jpg']];
+['Nguyễn Ngọc Trâm Anh','Product & Technology Lead','Leads product development and system design, translating construction-site challenges into practical technology requirements.','1-tram-anh.jpg'],
+['Phạm Phương Anh','Business & Finance Lead','Focuses on business strategy, financial planning and building a sustainable B2B SaaS model.','2-phuong-anh.jpg'],
+['Lê Minh Châu','Marketing & Communications Lead','Leads branding, communications and stakeholder engagement for PreventAir AI.','3-minh-chau.jpg'],
+['Vũ Hương Giang','Research & Data Analysis Lead','Turns environmental and construction-related data into insights for evidence-based decision-making.','4-huong-giang.jpg'],
+['Hoàng Minh Phương','Operations & Project Management Lead','Coordinates project activities, timelines and execution to keep the team aligned and the solution feasible.','5-minh-phuong.jpg'],
+['Phạm Hải Thành','HR & People Development Lead','Supports team coordination, internal communication and people development to build a collaborative team culture.','6-hai-thanh.jpg']];
 
 /* ===== Icons ===== */
 const IC={
@@ -236,10 +236,10 @@ const scrollToId=id=>document.getElementById(id)?.scrollIntoView({behavior:match
 
 /* ===== Brand ===== */
 const Brand=({onDark,size=34})=><span className="inline-flex items-center gap-2.5">
-{onDark?<span className="grid place-items-center rounded-xl" style={{background:'#fff',width:size+12,height:size+12}}><img src="assets/logo-mark.png" alt="" style={{height:size-4,width:'auto'}}/></span>:<img src="assets/logo-mark.png" alt="" style={{height:size,width:'auto'}}/>}
+{onDark?<span className="grid place-items-center rounded-xl" style={{background:'#fff',width:size+12,height:size+12}}><img src="logo-mark.png" alt="" style={{height:size-4,width:'auto'}}/></span>:<img src="logo-mark.png" alt="" style={{height:size,width:'auto'}}/>}
 {onDark
  ?<span className="font-semibold tracking-tight" style={{fontFamily:'var(--f-display)',fontSize:size*0.62}}><span style={{color:'var(--on-forest)'}}>Prevent</span><span style={{color:'var(--leaf)'}}>air</span></span>
- :<><img className="brand-word-img" src="assets/logo-wordmark.png" alt="PreventAir" style={{height:size*0.6,width:'auto'}}/><span className="brand-word-txt font-semibold tracking-tight" style={{fontFamily:'var(--f-display)',fontSize:size*0.62}}><span className="word-prevent">Prevent</span><span className="word-air">air</span></span></>}
+ :<><img className="brand-word-img" src="logo-wordmark.png" alt="PreventAir" style={{height:size*0.6,width:'auto'}}/><span className="brand-word-txt font-semibold tracking-tight" style={{fontFamily:'var(--f-display)',fontSize:size*0.62}}><span className="word-prevent">Prevent</span><span className="word-air">air</span></span></>}
 </span>;
 
 /* ===== Shared ===== */
@@ -514,7 +514,7 @@ function CameraFrame(){return <svg viewBox="0 0 320 180" className="w-full h-aut
 const PhoneAdvisory=()=><div className="mx-auto w-full" style={{maxWidth:292}}>
 <div style={{border:"9px solid #10241B",borderRadius:36,background:"var(--card)",boxShadow:"var(--shadow)",overflow:"hidden"}}>
 <div style={{background:"#10241B",height:24,display:"grid",placeItems:"center"}}><span style={{width:58,height:5,borderRadius:3,background:"#36473F",display:"block"}}/></div>
-<div className="flex items-center gap-2.5 px-3.5 py-2.5 border-b line"><img src="assets/logo-mark.png" alt="" style={{height:22,width:"auto"}}/><div className="min-w-0"><div className="t-xs font-semibold truncate">PreventAir AI</div><div className="mut" style={{fontSize:11}}>Zalo Official Account</div></div></div>
+<div className="flex items-center gap-2.5 px-3.5 py-2.5 border-b line"><img src="logo-mark.png" alt="" style={{height:22,width:"auto"}}/><div className="min-w-0"><div className="t-xs font-semibold truncate">PreventAir AI</div><div className="mut" style={{fontSize:11}}>Zalo Official Account</div></div></div>
 <div className="p-3 grid gap-2.5" style={{background:"var(--ground-2)"}}>
 <div className="rounded-2xl p-3" style={{background:"var(--card)",border:"1px solid var(--line)",borderTopLeftRadius:6}}>
 <div className="font-semibold" style={{fontSize:12.5,color:"var(--dust-ink)"}}>Dust risk tomorrow, 08:00 to 11:00</div>
@@ -622,7 +622,7 @@ return <>
 </Wrap></section>
 
 <section className="photo" aria-labelledby="dustfence">
-<img className="photo-img" src="assets/photo/site-hanoi.jpg" srcSet="assets/photo/site-hanoi-sm.jpg 864w, assets/photo/site-hanoi.jpg 1728w" sizes="100vw" decoding="async" alt="A Hanoi construction site at sunrise. Dust drifts from the excavation over the green hoarding toward a school and apartment blocks, while a monitoring camera and a particulate sensor sit on a pole in the foreground."/>
+<img className="photo-img" src="site-hanoi.jpg" srcSet="site-hanoi-sm.jpg 864w, site-hanoi.jpg 1728w" sizes="100vw" decoding="async" alt="A Hanoi construction site at sunrise. Dust drifts from the excavation over the green hoarding toward a school and apartment blocks, while a monitoring camera and a particulate sensor sit on a pole in the foreground."/>
 <div className="photo-shade"/>
 <Wrap c="relative py-24 sm:py-32">
 <Reveal c="max-w-xl">
@@ -704,7 +704,7 @@ return <section className="sec" style={{paddingTop:0}}><Wrap><Head t="On the gro
 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">{SITES.map(p=><figure key={p.src} className="panel overflow-hidden"><img src={p.src} alt={p.caption||'Construction site in Hanoi'} loading="lazy" className="w-full aspect-[4/3] object-cover"/>{p.caption&&<figcaption className="p-4 t-sm mut">{p.caption}</figcaption>}</figure>)}</div></Wrap></section>}
 
 const ClosingCTA=({t,s,b})=><section className="sec-forest relative overflow-hidden">
-<img src="assets/logo-mark.png" alt="" aria-hidden="true" className="absolute -right-10 -bottom-16 w-[340px] max-w-none opacity-[.09] pointer-events-none select-none"/>
+<img src="logo-mark.png" alt="" aria-hidden="true" className="absolute -right-10 -bottom-16 w-[340px] max-w-none opacity-[.09] pointer-events-none select-none"/>
 <Wrap c="relative py-20 sm:py-24"><h2 className="t-h1 max-w-3xl">{t}</h2><p className="t-lead on-f2 mt-5 max-w-2xl">{s}</p><div className="mt-9 flex flex-wrap gap-3">{b}</div></Wrap></section>;
 
 const PageHero=({t,s,pill,children})=><section className="hero"><Wrap c="relative pt-14 pb-14 sm:pt-20 sm:pb-20">{pill&&<Pill k="pill-dark">{pill}</Pill>}<h1 className="t-h1 mt-5 max-w-4xl">{t}</h1><p className="t-lead on-f2 mt-5 max-w-2xl">{s}</p>{children}</Wrap></section>;
@@ -713,7 +713,7 @@ const PageHero=({t,s,pill,children})=><section className="hero"><Wrap c="relativ
 function About(){return <>
 <section className="sec" style={{paddingBottom:56}}><Wrap c="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center">
 <div><Pill k="pill-concept">About PreventAir AI</Pill><h1 className="t-h1 mt-5">Building smarter. Breathing better.</h1><p className="t-lead mut mt-5 measure">PreventAir AI connects environmental responsibility, construction operations and artificial intelligence to help Hanoi grow more sustainably.</p></div>
-<div className="rounded-3xl p-8 sm:p-10 grid place-items-center" style={{background:'#FFFFFF',border:'1px solid var(--line)'}}><img src="assets/logo-full.png" alt="PreventAir logo: AI for a safer construction site" className="w-full max-w-[360px] h-auto"/></div>
+<div className="rounded-3xl p-8 sm:p-10 grid place-items-center" style={{background:'#FFFFFF',border:'1px solid var(--line)'}}><img src="logo-full.png" alt="PreventAir logo: AI for a safer construction site" className="w-full max-w-[360px] h-auto"/></div>
 </Wrap></section>
 
 <section className="pb-20"><Wrap c="grid md:grid-cols-2 gap-5">
